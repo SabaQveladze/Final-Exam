@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/avtorizacia2">
+
+    <fragment
+        android:id="@+id/passwordReset2"
+        android:name="com.example.finalexamgreencard.PasswordReset"
+        android:label="PasswordReset" />
+    <fragment
+        android:id="@+id/register2"
+        android:name="com.example.finalexamgreencard.Register"
+        android:label="Register" >
+        <action
+            android:id="@+id/action_register2_to_avtorizacia2"
+            app:destination="@id/avtorizacia2" />
+        <action
+            android:id="@+id/action_register2_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/avtorizacia2"
+        android:name="com.example.finalexamgreencard.Avtorizacia"
+        android:label="Avtorizacia" >
+        <action
+            android:id="@+id/action_avtorizacia2_to_register2"
+            app:destination="@id/register2" />
+        <action
+            android:id="@+id/action_avtorizacia2_to_passwordReset2"
+            app:destination="@id/passwordReset2" />
+        <action
+            android:id="@+id/action_avtorizacia2_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.finalexamgreencard.Profile"
+        android:label="Profile" >
+        <action
+            android:id="@+id/action_profile_to_avtorizacia2"
+            app:destination="@id/avtorizacia2" />
+    </fragment>
+</navigation>

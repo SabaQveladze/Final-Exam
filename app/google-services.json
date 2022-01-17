@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463341726752",
+    "project_id": "final-98cca",
+    "storage_bucket": "final-98cca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463341726752:android:1d3be43d359ee2d8096045",
+        "android_client_info": {
+          "package_name": "com.example.finalexamgreencard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463341726752-bp0m0ne3muo13htct37ru43t8ft835r1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMmGVOvU4Gfj8mXhVqCplfUXI1tWQj2vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463341726752-bp0m0ne3muo13htct37ru43t8ft835r1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
