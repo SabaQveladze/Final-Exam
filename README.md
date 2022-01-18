@@ -1,10 +1,9 @@
-Green Card - არის აპლიკაცია, რომელიც დაგეხმარებათ დაადასტუროთ თვენი ვაქცინირება და ისარგებლოთ სხვადასხვა მომსახურებებით.
-როდესაც მომხმარებელი ჩაიწერს აპლიკაციას მას დასჭირდება რეგისტრაციის გავლა. ამით ის დაადასტურებს, 
-რომ ორივე დოზა ვაქცინის გაკეთებული აქვს და შემდგომში აპლიკაციას გამოიყენებს, რათა თავი აარიდოს შეზღუდვებს.                      
-&გამოყენებული ფაილები:
+Green Card - is Application,Which Can Help You To Confirm Your Vaccine And Enjoy With Some Services.
+When User Install Application For The First Time He Will Need To Register.With This He confirm That He Has Already Taken Full Doze Of Vaccine, And Then Use The Application To Avoid Regulations.                   
+Used Files:
 
 1)Google Firebase (Authentification)
 
 2)Google Firebase ( Real Time Data Base )
 
-ასევე აგებულია ფრაგმენტებით და გამოყენებულია Navigation Components
+Also Project Built By Fragments And Used Navigation Components
